@@ -1,0 +1,8 @@
+# pixi environments
+.pixi
+*.egg-info
+docs/.quarto
+docs/_site
+docs/data
+src/project_tracker/__pycache__
+tests/__pycache__

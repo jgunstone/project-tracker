@@ -1,0 +1,18 @@
+---
+title: "project-tracker"
+---
+
+A clearly defined/managed project typically requires the following data to be tracked: 
+
+- project definition
+  - a description of the project, its goals and a brief
+- project team
+  - client and delivery team responsible for completing the project against its brief
+- budget
+  - an predictive estimation of resources / spend required to deliver the project
+- spend
+  - a record of resources / spend actually used in the the delivery of the project
+- milestones
+  - time-periods to deliver the project and key dates during its delivery
+
+Within an organisation 

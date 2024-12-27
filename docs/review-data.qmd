@@ -1,0 +1,46 @@
+---
+title: "Review Datastructures"
+# format:
+#   html:
+#     code-fold: true
+execute:
+  echo: false
+---
+
+## Github Project View
+
+```{python}
+from IPython.display import Markdown
+from project_tracker.gh import project_view_cmd, PROJECT_NUMBER
+Markdown(f"```python\n{project_view_cmd(PROJECT_NUMBER)}\n```")
+```
+
+
+```{ojs}
+//| output: all
+project_view = FileAttachment("data/project-view.json").json()
+```
+
+## Github Item List
+
+```{python}
+from project_tracker.gh import project_item_list_cmd
+Markdown(f"```python\n{project_item_list_cmd(PROJECT_NUMBER)}\n```")
+```
+
+```{ojs}
+//| output: all
+project_item_list = FileAttachment("data/project-item-list.json").json()
+```
+
+## Github Issue
+
+```{python}
+from project_tracker.gh import issue_cmd, REPO, ISSUE_NUMBER
+Markdown(f"```python\n{issue_cmd(ISSUE_NUMBER, REPO)}\n```")
+```
+
+```{ojs}
+//| output: all
+issue = FileAttachment("data/issue.json").json()
+```
